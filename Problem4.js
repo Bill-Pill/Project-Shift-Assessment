@@ -1,5 +1,7 @@
 const array = [34, 203, 16, 46, 34, 432, 342, 124, 33, 188, 12];
 
+
+// Sums up all array numbers
 var arraySum = 0;
 array.forEach(function(num){
     arraySum += num;

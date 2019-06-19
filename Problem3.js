@@ -1,9 +1,10 @@
 const bands = ['Kiss', 'Aerosmith', 'ACDC', 'Led Zeppelin', 'Nickelback'];
 
+// Makes sure you DON'T love Nickelback
 bands.forEach(function(band){
     if(band === "Nickelback") {
-        console.log("I DON'T love " + band + "!");
+        alert("I DON'T love " + band + "!");
     } else {
-            console.log("I love " + band + "!");
+            alert("I love " + band + "!");
     }
 });
